@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Butler— Technicien & Développeur Web</title>
+    <link rel="stylesheet" href="style1.css">
+  </head>
+  <body>
+
+    <!-- NAVIGATION -->
+    <nav>
+      <span class="logo"> BUTLER </span>
+      <div class="nav-liens">
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+      <img src="Technicien en action.png" alt="Ma photo">
+      <h1>Bonjour, je suis <span>Butler</span></h1>
+      <p>Technicien informatique & Développeur web à Port-au-Prince</p>
+      <a href="#contact" class="btn-hero">Travaillons ensemble 🚀</a>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="services fade-in">
+      <h2>Mes Services</h2>
+        <div class="grille">
+
+        <div class="carte-service">
+          <div class="icone">🖥️</div>
+          <h3>Réparation PC</h3>
+          <ul>
+            <li>Diagnostic rapide d'un PC en panne et un Rapport clair au client</li>
+            <li>Remplacement + clonage ancien Disque dur sur SSD pour un PC plus rapide</li>
+            <li>Audit complet de PC professionnel</li>
+            <li>Elimination virus ou malware sur PC infecté</li>
+           </ul>
+        </div>
+
+        <div class="carte-service">
+          <div class="icone">🌐</div>
+          <h3>Création de sites web</h3>
+          <p>Sites vitrines modernes et responsives pour votre boutique/votre commerce.</p>
+        </div>
+
+        <div class="carte-service">
+          <div class="icone">📡</div>
+                <h3>Installation réseau</h3>
+                <ul>
+                    <li>création de partage réseau depuis plusieurs postes utilisateurs</li>
+                    <li>Installation et sécurisation d'un réseau Wi-Fi domestique</li> 
+                </ul>    
+            </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact fade-in">
+      <h2>Me Contacter</h2>
+      <div class="carte">
+        <input type="text" id="nom" placeholder="Votre nom">
+        <input type="text" id="message" placeholder="Votre message">
+        <button onclick="envoyerMessage()">📩 Envoyer</button>
+        <p id="reponse"></p>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2026 Butler— Port-au-Prince, Haïti 🇭🇹</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
